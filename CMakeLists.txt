@@ -23,10 +23,10 @@ jobs:
         include:
           - os: ubuntu-latest
             artifact_name: linux-build
-            executable_name: tictactoe
+            executable_name: Raylib_Ball_Game
           - os: windows-latest
             artifact_name: windows-build
-            executable_name: tictactoe.exe
+            executable_name: Raylib_Ball_Game
 
     runs-on: ${{ matrix.os }}
 
