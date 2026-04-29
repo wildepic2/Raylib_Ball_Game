@@ -8,7 +8,7 @@ void ball2(int *x , int *y , int *xMultiplier , int *yMultiplier);
 void playerInput(int *x , int *y);
 int collision(int x , int y , int x2 , int y2);
 
-//Constantes for Game
+//Constants for Game
 const int screenWidth = 800;
 const int screenHeight = 450;
 const int edge = 25;
